@@ -1,0 +1,64 @@
+.comment {
+    display: flex;
+    padding: 3rem;
+    flex-direction: row;
+
+    @media screen and(max-width:46.875em) {
+        flex-direction: column;
+    }
+
+
+    .comment-space {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .comment-box {
+        display: flex;
+        align-items: center;
+        animation-name: moveInRight;
+        animation-delay: 5s;
+        animation: repear;
+
+        @media screen and(max-width:46.875em) {
+            flex-direction: column;
+        }
+    }
+
+    .comment-img {
+        height: 40rem;
+        width: 40rem;
+        padding: 2rem;
+
+        @media screen and(max-width:46.875em) {
+            height: 10%;
+            width: 70%;
+        }
+
+        .com-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+    }
+
+
+    .comment-body {
+        padding: 2rem;
+        width: 60%;
+        font-size: 2rem;
+        font-weight: 200;
+        font-style: italic;
+
+        @media screen and(max-width:46.875em) {
+            width: 90%;
+        }
+    }
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}

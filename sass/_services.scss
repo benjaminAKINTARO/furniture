@@ -1,0 +1,22 @@
+.service {
+    background-color: #ebe6e6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5rem;
+
+    @media screen and(max-width:46.875em) {
+        flex-direction: column;
+    }
+
+
+    .service-head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+}

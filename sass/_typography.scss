@@ -1,0 +1,155 @@
+///////////////////////////buttons
+.btn-1 {
+    background-color: #07bbbb;
+    border: none;
+    padding: 2rem 6rem;
+    font-size: 2rem;
+    color: #fff;
+    transition: all .5s;
+
+    &:hover {
+        transform: scale(1.01);
+        text-transform: uppercase;
+    }
+
+    &:active {
+        background-color: #118c91e7;
+        transform: scale(1);
+    }
+
+
+}
+
+
+.btn-2 {
+    background-color: #524545;
+    border: none;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    transition: all .5s;
+
+    &:hover {
+        transform: scale(1.01);
+        text-transform: uppercase;
+    }
+
+    &:active {
+        background-color: #b18e8e;
+        transform: scale(1);
+    }
+
+
+}
+
+.btn-3 {
+    background-color: transparent;
+    border: none;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #07bbbb;
+    transition: all .5s;
+    margin-left: 2rem;
+
+
+    &:hover {
+        transform: scale(1.07);
+    }
+
+    &:active {
+        color: #fff;
+        background-color: #118c91e7;
+        transform: scale(1);
+    }
+
+
+}
+
+.btn-4 {
+    background-color: transparent;
+    border: none;
+    padding: 2rem 0;
+    font-size: 2rem;
+    color: #07bbbb;
+    transition: all .5s;
+
+
+    &:hover {
+        transform: scale(1.0);
+    }
+
+    &:active {
+        color: #fff;
+        background-color: #118c91e7;
+        transform: scale(1);
+    }
+
+
+}
+
+
+.btn-5 {
+    background-color: transparent;
+    border: none;
+    padding: 2rem 0;
+    font-size: 2rem;
+    color: #524545;
+    transition: all .5s;
+
+
+    &:hover {
+        transform: scale(1.07);
+    }
+
+    &:active {
+        color: #fff;
+        background-color: #524545;
+        transform: scale(1);
+    }
+
+
+}
+
+.btn-6 {
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all .4s;
+    color: #fff;
+
+    &:hover {
+        border-bottom: .1rem solid #fff;
+    }
+}
+
+
+///////////////////text
+
+.faint {
+    color: #6d6d6d;
+    font-family: Arial;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.faint-2 {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 100;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.paragraph-1 {
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+.paragraph-2 {
+    font-size: 1.7rem;
+}

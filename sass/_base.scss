@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 60.5%;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+
+    @media screen and(max-width:75em) {
+        font-size: 50%;
+    }
+
+    @media screen and(max-width:56.25em) {
+        font-size: 45%;
+    }
+
+    // @media screen and(max-width:50em) {}
+
+    // @media screen and(max-width:43.75em) {}
+
+
+    // @media screen and(max-width:37.5em) {}
+
+    // @media screen and(max-width:25em) {}
+
+    // @media screen and(max-width:15.625em) {}
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+////////////////media-query///////////////
+
+// 1200===75em----laptop
+// 900===56.25------tab-land
+// 700==43.75-------tab-port
+// 600===37.5-------tab-mini
+// 400====25em------large-phone-screen
+// 250===15.625------small-phone-screen

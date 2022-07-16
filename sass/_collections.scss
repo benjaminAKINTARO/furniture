@@ -1,0 +1,35 @@
+.collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+
+    .collection-card {
+        display: flex;
+        align-content: center;
+
+        @media screen and(max-width:46.875em) {
+            flex-direction: column;
+        }
+
+
+
+        .card {
+            grid-row: 1/-1;
+            width: 90%;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 0 3rem;
+
+            .card-img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+        }
+    }
+}
